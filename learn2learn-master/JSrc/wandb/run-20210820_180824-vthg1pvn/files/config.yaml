@@ -1,0 +1,76 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    python_version: 3.6.10
+    start_time: 1629497304
+    t:
+      1:
+      - 1
+      4: 3.6.10
+      5: 0.12.0
+      8:
+      - 2
+      - 5
+adaptation-steps:
+  desc: null
+  value: 1
+channels:
+  desc: null
+  value: 1
+data:
+  desc: null
+  value: ~/data
+dataset:
+  desc: null
+  value: omniglot
+device:
+  desc: null
+  value: cuda
+epochs:
+  desc: null
+  value: 5000
+fast-lr:
+  desc: null
+  value: 0.09285839961106677
+fine-tune:
+  desc: null
+  value: 1
+input:
+  desc: null
+  value: 28
+meta-learn:
+  desc: null
+  value: 1
+meta-lr:
+  desc: null
+  value: 0.08095622838816617
+num-tasks:
+  desc: null
+  value: 16
+shots:
+  desc: null
+  value: 1
+total-num-tasks:
+  desc: null
+  value: 20000
+username:
+  desc: null
+  value: hikmatkhan-
+wand-project:
+  desc: null
+  value: JStart
+wandb-log:
+  desc: null
+  value: 1
+ways:
+  desc: null
+  value: 5
+workers:
+  desc: null
+  value: 4

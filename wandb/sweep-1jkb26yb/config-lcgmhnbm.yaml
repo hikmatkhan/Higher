@@ -1,0 +1,42 @@
+wandb_version: 1
+
+adaptation-steps:
+  value: 1
+channels:
+  value: 1
+data:
+  value: ./data
+dataset:
+  value: omniglot
+device:
+  value: cuda
+fast-lr:
+  value: 0.03582922029602682
+fine-tune:
+  value: 1
+input:
+  value: 28
+meta-learn:
+  value: 1
+meta-lr:
+  value: 0.07051719353329905
+model-name:
+  value: resnet
+num-epochs:
+  value: 5000
+num-tasks:
+  value: 16
+num-workers:
+  value: 4
+shots:
+  value: 5
+total-num-tasks:
+  value: -1
+username:
+  value: hikmatkhan-
+wand-project:
+  value: Sweeper
+wandb-log:
+  value: 1
+ways:
+  value: 5

@@ -1,0 +1,42 @@
+wandb_version: 1
+
+adaptation-steps:
+  value: 1
+channels:
+  value: 1
+data:
+  value: ./data
+dataset:
+  value: omniglot
+device:
+  value: cuda
+fast-lr:
+  value: 0.042503255874879256
+fine-tune:
+  value: 1
+input:
+  value: 28
+meta-learn:
+  value: 1
+meta-lr:
+  value: 0.03027938220324433
+model-name:
+  value: vanilla
+num-epochs:
+  value: 5000
+num-tasks:
+  value: 8
+num-workers:
+  value: 4
+shots:
+  value: 5
+total-num-tasks:
+  value: 20000
+username:
+  value: hikmatkhan-
+wand-project:
+  value: JStart
+wandb-log:
+  value: 1
+ways:
+  value: 5

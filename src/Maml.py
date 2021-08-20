@@ -10,6 +10,7 @@ from torch import optim, nn
 from torchvision.models import resnet18
 import utils
 import argparse
+import wandb
 # import os
 # os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 # # For mutliple devices (GPUs: 4, 5, 6, 7)
@@ -68,7 +69,7 @@ model_params.add_argument('--fine-tune', type=int, default=1,
 
 # Optimization
 optim_params = parser.add_argument_group('Optimization')
-optim_params.add_argument('--num-epochs', type=int, default=50000,
+optim_params.add_argument('--num-epochs', type=int, default=-1,
                           help='Number of epochs of meta-training (default: 50000).')
 optim_params.add_argument('--seed', type=int, default=utils.fix_seeds(),
                           help='Number of epochs of meta-training (default: 101).')
@@ -111,8 +112,8 @@ if __name__ == '__main__':
         import wandb
         wandb.init(project=args.wand_project, entity=args.username)
         wandb.watch(model, log_freq=10)
-        wandb.config.update(args)
-
+    #     wandb.config.update(args)
+    print("Meta_Lr:", args.meta_lr, " Fast_Lr:", args.fast_lr, " Epoch:", args.num_epochs)
     for e in range(args.num_epochs):
 
         optim_meta.zero_grad()
@@ -141,7 +142,7 @@ if __name__ == '__main__':
                        "meta_val_loss": meta_val_loss,
                        "meta_test_acc": meta_test_acc,
                        "meta_test_loss": meta_test_loss})
-        # print("Epoch|", e, "|", "Meta Train Acc:", meta_train_acc, " Meta Train Loss:", meta_train_loss,
-        #       "Meta Val Acc:", meta_val_acc, " Meta Val Loss:", meta_val_loss,
-        #       "Meta Test Acc:", meta_test_acc, " Meta Test Loss:", meta_test_loss, "(", meta_step_info,")")
+        print("Epoch|", e, "|", "Meta Train Acc:", meta_train_acc, " Meta Train Loss:", meta_train_loss,
+              "Meta Val Acc:", meta_val_acc, " Meta Val Loss:", meta_val_loss,
+              "Meta Test Acc:", meta_test_acc, " Meta Test Loss:", meta_test_loss, "(", meta_step_info,")")
 

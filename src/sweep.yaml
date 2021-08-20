@@ -21,7 +21,7 @@ parameters:
   dataset:
     values: ["omniglot"]
   num-tasks:
-    values: [16, 32]
+    values: [8, 16, 32]
   total-num-tasks:
     value: -1
   meta-learn:
@@ -46,3 +46,5 @@ parameters:
     value: 1
   data:
     value: "./data"
+  num-epochs:
+    value: 5000
