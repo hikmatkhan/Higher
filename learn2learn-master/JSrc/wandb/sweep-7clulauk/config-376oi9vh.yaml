@@ -1,0 +1,16 @@
+wandb_version: 1
+
+adaptation-steps:
+  value: 1
+dataset:
+  value: omniglot
+fast-lr:
+  value: 0.03125080422676728
+meta-lr:
+  value: 0.06307515419343275
+num-tasks:
+  value: 8
+shots:
+  value: 5
+ways:
+  value: 20

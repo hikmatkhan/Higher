@@ -30,6 +30,7 @@ def get_compute_device():
 
 def init_wandb(args, model=None):
     wandb.init(project=args.wand_project, entity=args.username, reinit=True)
+    wandb.config.update(args)
     if model != None:
         wandb.watch(model, log_freq=10)
-        wandb.config.update(args)
+

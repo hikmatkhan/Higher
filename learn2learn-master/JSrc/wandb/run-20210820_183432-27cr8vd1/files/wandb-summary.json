@@ -1,1 +1,1 @@
-{"Meta Trn Acc": 0.7899999767541885, "Meta Trn Loss": 0.6260995529592037, "Meta Val Acc": 0.8449999839067459, "Meta Val Loss": 0.47758112847805023, "Meta Test Acc": 0.8049999848008156, "Meta Test Loss": 0.6056792251765728, "_runtime": 579, "_timestamp": 1629499451, "_step": 250}
+{"Meta Trn Acc": 0.8599999770522118, "Meta Trn Loss": 0.4831862412393093, "Meta Val Acc": 0.7899999842047691, "Meta Val Loss": 0.5724971108138561, "Meta Test Acc": 0.7449999898672104, "Meta Test Loss": 0.7243608348071575, "_runtime": 877, "_timestamp": 1629499749, "_step": 379}

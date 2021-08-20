@@ -1,7 +1,7 @@
 #wandb: Creating sweep from: sweep.yaml
-#wandb: Created sweep with ID: xsuavdqx
-#wandb: View sweep at: https://wandb.ai/hikmatkhan-/Higher-learn2learn-master_JSrc/sweeps/xsuavdqx
-#wandb: Run sweep agent with: wandb agent hikmatkhan-/Higher-learn2learn-master_JSrc/xsuavdqx
+#wandb: Created sweep with ID: u69gv0ny
+#wandb: View sweep at: https://wandb.ai/hikmatkhan-/Higher-learn2learn-master_JSrc/sweeps/u69gv0ny
+#wandb: Run sweep agent with: wandb agent hikmatkhan-/Higher-learn2learn-master_JSrc/u69gv0ny
 
 
 program: maml.py

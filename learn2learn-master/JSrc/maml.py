@@ -226,12 +226,12 @@ def main(args):
                                  round(meta_train_error, 2), round(meta_valid_error, 2), round(meta_test_error, 2)))
 
         if args.wandb_log:
-            wandb.log({"Meta Trn Acc":meta_train_accuracy,
-                       "Meta Trn Loss":meta_train_error,
-                       "Meta Val Acc":meta_valid_accuracy,
-                       "Meta Val Loss":meta_valid_error,
-                        "Meta Test Acc":meta_test_accuracy,
-                        "Meta Test Loss":meta_test_error,
+            wandb.log({"meta_train_accuracy":meta_train_accuracy,
+                       "meta_train_loss":meta_train_error,
+                       "meta_valid_accuracy":meta_valid_accuracy,
+                       "meta_valid_loss":meta_valid_error,
+                        "meta_test_accuracy":meta_test_accuracy,
+                        "meta_test_loss":meta_test_error,
                       })
 
 

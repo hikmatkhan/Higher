@@ -1,0 +1,32 @@
+{
+    "os": "Linux-4.4.0-174-generic-x86_64-with-debian-stretch-sid",
+    "python": "3.6.10",
+    "heartbeatAt": "2021-08-20T22:58:20.169966",
+    "startedAt": "2021-08-20T22:58:16.157894",
+    "docker": null,
+    "gpu": "Quadro P5000",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": "10.2.89",
+    "args": [
+        "--adaptation-steps=5",
+        "--dataset=omniglot",
+        "--fast-lr=0.021079312435333553",
+        "--meta-lr=0.06217753715838891",
+        "--num-tasks=16",
+        "--shots=1",
+        "--ways=20"
+    ],
+    "state": "running",
+    "program": "maml.py",
+    "codePath": "learn2learn-master/JSrc/maml.py",
+    "git": {
+        "remote": "https://github.com/hikmatkhan/Higher.git",
+        "commit": "2a5dfe0f4c8783f0951c6e52da967a9eb1fb91c7"
+    },
+    "email": "[khanhi83@students.rowan.edu]",
+    "root": "/home/hikmat/Desktop/JWorkSpace/Higher",
+    "host": "Hikmat",
+    "username": "hikmat",
+    "executable": "/home/hikmat/anaconda3/envs/PY3/bin/python"
+}

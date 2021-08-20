@@ -2,18 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3319f6f6-cf99-4773-a3db-0749018e238f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Starter-Src/jmain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Starter-Src/jutils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Starter-Src/sweep.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/jutils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/maml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/sweep.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Template.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starter-Src/sweep.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-Src/sweep.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/jutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/jutils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/maml.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/maml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/sweep.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/sweep.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183432-27cr8vd1/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183432-27cr8vd1/files/wandb-summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183432-27cr8vd1/run-27cr8vd1.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183432-27cr8vd1/run-27cr8vd1.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183514-soi972t7/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183514-soi972t7/files/wandb-summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183514-soi972t7/run-soi972t7.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183514-soi972t7/run-soi972t7.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183525-wjeweadz/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183525-wjeweadz/files/wandb-summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183525-wjeweadz/run-wjeweadz.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183525-wjeweadz/run-wjeweadz.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183539-lj94yqzk/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183539-lj94yqzk/files/wandb-summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183539-lj94yqzk/run-lj94yqzk.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183539-lj94yqzk/run-lj94yqzk.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183550-1vwcz4p4/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183550-1vwcz4p4/files/wandb-summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183550-1vwcz4p4/run-1vwcz4p4.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183550-1vwcz4p4/run-1vwcz4p4.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183642-56yjbs95/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183642-56yjbs95/files/wandb-summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183642-56yjbs95/run-56yjbs95.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183642-56yjbs95/run-56yjbs95.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183657-fxbdncex/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183657-fxbdncex/files/wandb-summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183657-fxbdncex/run-fxbdncex.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183657-fxbdncex/run-fxbdncex.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183717-jwe5rwn1/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183717-jwe5rwn1/files/wandb-summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183717-jwe5rwn1/run-jwe5rwn1.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183717-jwe5rwn1/run-jwe5rwn1.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183735-nnr8b04h/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183735-nnr8b04h/files/wandb-summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183735-nnr8b04h/run-nnr8b04h.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183735-nnr8b04h/run-nnr8b04h.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183752-6mk12kg4/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_183752-6mk12kg4/files/wandb-summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_184019-zsxo8m1c/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_184019-zsxo8m1c/files/wandb-summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_184019-zsxo8m1c/run-zsxo8m1c.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/learn2learn-master/JSrc/wandb/run-20210820_184019-zsxo8m1c/run-zsxo8m1c.wandb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MAMLWithHigher.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/MAMLWithHigher.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Maml.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sweep.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweep.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sweep_runner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweep_runner.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +202,7 @@
       <workItem from="1629292291171" duration="28222000" />
       <workItem from="1629408742547" duration="32000" />
       <workItem from="1629408776687" duration="41000" />
-      <workItem from="1629408829983" duration="11203000" />
+      <workItem from="1629408829983" duration="12696000" />
     </task>
     <servers />
   </component>

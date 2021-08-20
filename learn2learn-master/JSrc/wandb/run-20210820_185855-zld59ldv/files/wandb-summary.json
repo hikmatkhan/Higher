@@ -1,0 +1,1 @@
+{"meta_train_accuracy": 0.05000000074505806, "meta_train_loss": 2.9957320392131805, "meta_valid_accuracy": 0.05000000074505806, "meta_valid_loss": 2.9957320392131805, "meta_test_accuracy": 0.05000000074505806, "meta_test_loss": 2.9957324266433716, "_runtime": 276, "_timestamp": 1629500611, "_step": 166}
